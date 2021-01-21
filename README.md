@@ -17,8 +17,8 @@ There are few variables you can modify in weight_averaging.py
 
 Some problems have not been fixed:
 
-(1) unbalanced data
-(2) testing on the averaging weight ("avg.pt") got a poor result. It might be because client models didn't converage to same local minimum. 
+(1) It is an unbalanced, small data. We have not used augmentation to minimize this disadvantage 
+(2) Testing on the averaging weight ("avg.pt") got a poor result. It might be because client models didn't converage to same local minimum, which was directly related to the directions of gradient decent were different among clients; or the clients initiated their weights in the same place. 
 (3) we have not retrained avg.pt with server data
 
 
