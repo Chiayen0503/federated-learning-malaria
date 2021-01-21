@@ -9,7 +9,7 @@ There are few variables you can modify in weight_averaging.py
 
     (1) weight_1_path & weight_2_path: client weight paths
 
-    (2) config: derives from the yolov5 model you choose (yolov5l.yaml, yolov5m.yaml, yolov5s.yaml, yolov5x.yaml)
+    (2) config: depends on the yolov5 model you choose (yolov5l.yaml, yolov5m.yaml, yolov5s.yaml, yolov5x.yaml)
 
     (3) channel: 3 (RGB), 2(grayscale) 
 
